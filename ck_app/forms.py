@@ -15,10 +15,3 @@ class ArticleForm(forms.ModelForm):
     class Meta:
         model = Article
         fields = '__all__'
-        # you can also use CKEditor5Widget in your forms.
-        # we don't need it. because we have model form
-        # widgets = {
-        #     "text": CKEditor5Widget(
-        #         attrs={"class": "django_ckeditor_5"}, config_name="extends"
-        #     )
-        # }
